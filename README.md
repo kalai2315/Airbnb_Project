@@ -18,9 +18,7 @@ After retrieving the Airbnb dataset, it's essential to clean and prepare the dat
 
 **Prepare the dataset for EDA and visualization:** Ensure the dataset is formatted correctly and contains the necessary information for exploratory data analysis (EDA) and visualization tasks.
 
-**Develop the Streamlit web application:** Write the code to create an interactive web application using Streamlit. Use libraries like Folium or Plotly to integrate geospatial data and create interactive maps.
-
-**Incorporate geospatial data:** Retrieve relevant geospatial data from the cleaned Airbnb dataset and integrate it into your Streamlit application.
+**Develop the Streamlit web application:** Write the code to create an interactive web application using Streamlit. 
 
 **Create interactive maps:** Use the geospatial data to generate interactive maps within your Streamlit application, allowing users to explore the Airbnb listings spatially.
 
