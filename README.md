@@ -3,7 +3,7 @@
 
 **Introduction to Airbnb Data Analysis:**
 
-Welcome to our Airbnb data analysis project! In this analysis, we delve into a comprehensive dataset from Airbnb, a popular platform for short-term lodging rentals. Our goal is to gain insights into various aspects of the Airbnb market, including pricing dynamics, property types, neighborhood preferences, and availability trends.
+Welcome to our Airbnb data analysis project! In this analysis, we delve into a comprehensive dataset from Airbnb, a popular platform for short-term lodging rentals. Our goal is to gain insights into various aspects of the Airbnb market, including pricing dynamics, property types, neighborhood preferences.
 
 
 **Key Technologies and Skills**
