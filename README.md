@@ -1,5 +1,36 @@
 **Airbnb Analysis**
 
+
+**Introduction to Airbnb Data Analysis:**
+
+Welcome to our Airbnb data analysis project! In this analysis, we delve into a comprehensive dataset from Airbnb, a popular platform for short-term lodging rentals. Our goal is to gain insights into various aspects of the Airbnb market, including pricing dynamics, property types, neighborhood preferences, and availability trends.
+
+
+**Key Technologies and Skills**
+Python
+Pandas
+MongoDB
+MYSQL 
+Streamlit
+Plotly
+
+**INSTALLATIONS:**
+
+To run this project, you need to install the following packages:
+
+import pandas as pd
+import streamlit as st
+import plotly.express as px
+import pymongo
+from pymongo import MongoClient
+import seaborn as sns
+import matplotlib.pyplot as plt
+from PIL import Image
+import pymysql
+from sqlalchemy import create_engine
+
+
+
 **1. MongoDB Connection and Data Retrieval**
 
 To establish a connection to the MongoDB Atlas database and retrieve the Airbnb dataset, follow these steps:
