@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyMQvFEhOMoS8HM9/XZl+9kh",
+      "authorship_tag": "ABX9TyN7D6CIyb2B+bT5IWjJp5am",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -42,6 +42,9 @@
         "import seaborn as sns\n",
         "import matplotlib.pyplot as plt\n",
         "from PIL import Image\n",
+        "import pymysql\n",
+        "from sqlalchemy import create_engine\n",
+        "\n",
         "\n",
         "\n",
         "\n",
@@ -183,9 +186,6 @@
         "    st.write(df_sample)\n",
         "\n",
         "\n",
-        "\n",
-        "\n",
-        "\n",
         "# Count the number of listings for each value of Accommodates\n",
         "accommodates_counts = filtered_df['Accomodates'].value_counts().reset_index()\n",
         "accommodates_counts.columns = ['Accomodates', 'Count']\n",
@@ -248,7 +248,7 @@
         "        st.plotly_chart(fig)\n",
         "# Cleaning Fee Analysis\n",
         "with tab2:\n",
-        "    # Extract the necessary column\n",
+        "\n",
         "    cleaning_fee_analysis_df = filtered_df[['Cleaning_fee']]\n",
         "\n",
         "    # Handle missing values if needed\n",
@@ -270,7 +270,7 @@
         "    fig = px.histogram(extra_people_analysis_df, x='Extra_people', nbins=20,\n",
         "                    title=f'Extra People Charges Distribution in {selected_country}',\n",
         "                    labels={'Extra_people': 'Extra People Charges', 'count': 'Frequency'},\n",
-        "                    marginal='rug', color_discrete_sequence=['#FFA15A'])  # Set color for histogram\n",
+        "                    marginal='rug', color_discrete_sequence=['#FFA15A'])\n",
         "    fig.update_layout(xaxis_title='Extra People Charges', yaxis_title='Frequency')\n",
         "    st.plotly_chart(fig)\n",
         "\n",
@@ -285,7 +285,7 @@
         "    fig = px.histogram(guests_included_analysis_df, x='Guests_included',\n",
         "                    title=f'Number of Guests Included Distribution in {selected_country}',\n",
         "                    labels={'Guests_included': 'Number of Guests Included', 'count': 'Count'},\n",
-        "                    color_discrete_sequence=['#FFFF00'])  # Set color for bars\n",
+        "                    color_discrete_sequence=['#FFFF00'])\n",
         "    fig.update_layout(xaxis_title='Number of Guests Included', yaxis_title='Count')\n",
         "    st.plotly_chart(fig)\n",
         "\n",
@@ -359,10 +359,15 @@
         "cancellation_policy_counts['Percentage'] = cancellation_policy_counts['Count'] / total_listings * 100\n",
         "\n",
         "# Plot the line chart\n",
-        "fig = px.line(cancellation_policy_counts, x='Cancellation_policy', y='Percentage',\n",
+        "fig = px.bar(cancellation_policy_counts, x='Cancellation_policy', y='Percentage',\n",
         "              title='Cancellation Policy Distribution')\n",
         "fig.update_traces(hovertemplate='<b>%{x}</b><br>Percentage: %{y:.2f}%')\n",
-        "st.plotly_chart(fig)"
+        "st.plotly_chart(fig)\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
       ]
     }
   ]
