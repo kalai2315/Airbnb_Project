@@ -8,10 +8,15 @@ Welcome to our Airbnb data analysis project! In this analysis, we delve into a c
 
 **Key Technologies and Skills**
 Python
+
 Pandas
+
 MongoDB
+
 MYSQL 
+
 Streamlit
+
 Plotly
 
 **INSTALLATIONS:**
@@ -19,14 +24,23 @@ Plotly
 To run this project, you need to install the following packages:
 
 import pandas as pd
+
 import streamlit as st
+
 import plotly.express as px
+
 import pymongo
+
 from pymongo import MongoClient
+
 import seaborn as sns
+
 import matplotlib.pyplot as plt
+
 from PIL import Image
+
 import pymysql
+
 from sqlalchemy import create_engine
 
 
