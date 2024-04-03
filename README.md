@@ -69,3 +69,8 @@ After retrieving the Airbnb dataset, it's essential to clean and prepare the dat
 
 **Test and deploy:** Test your Streamlit application locally to ensure it functions as expected. Once satisfied, deploy the application to a web server or hosting platform for public access.
 
+**Airbnb PowerBI Dashboard**
+
+<img width="458" alt="image" src="https://github.com/kalai2315/Airbnb_Project/assets/152251807/76fe12c3-4c60-4e64-973f-108f20b60706">
+
+
