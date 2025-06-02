@@ -48,26 +48,27 @@ from sqlalchemy import create_engine
 **1. MongoDB Connection and Data Retrieval**
 
 To establish a connection to the MongoDB Atlas database and retrieve the Airbnb dataset, follow these steps:
+
 Install the necessary MongoDB driver for your programming language (e.g., pymongo for Python).
+
 Use the connection string provided by MongoDB Atlas to connect to your database from your application code.
+
 Retrieve the Airbnb dataset using appropriate queries and data retrieval operations. 
 
 **2. Data Cleaning and Preparation**
-After retrieving the Airbnb dataset, it's essential to clean and prepare the data for further analysis. Follow these steps:
+After retrieving the Airbnb dataset, it's essential to clean and prepare the data for further analysis.
 
-**Handle missing values:** Identify columns with missing values and decide on an appropriate strategy to handle them (e.g., imputation, removal).
+**Handled missing values:** Identified columns with missing values and decided on an appropriate strategy to handle them (e.g., imputation, removal).
 
-**Remove duplicates:** Check for and remove duplicate entries in the dataset to ensure data integrity.
+**Removed duplicates:** Checked and removed duplicate entries in the dataset to ensure data integrity.
 
-**Transform data types:** Convert data types as necessary to ensure consistency and compatibility with analysis tasks.
+**Transformed data types:** Converted data types as necessary to ensure consistency and compatibility with analysis tasks.
 
-**Prepare the dataset for EDA and visualization:** Ensure the dataset is formatted correctly and contains the necessary information for exploratory data analysis (EDA) and visualization tasks.
+**Prepared the dataset for EDA and visualization:** Ensured the dataset is formatted correctly and contains the necessary information for exploratory data analysis (EDA) and visualization tasks.
 
-**Develop the Streamlit web application:** Write the code to create an interactive web application using Streamlit. 
+**Developed the Streamlit web application:** Written the code to create an interactive web application using Streamlit. 
 
-**Create interactive maps:** Use the geospatial data to generate interactive maps within your Streamlit application, allowing users to explore the Airbnb listings spatially.
-
-**Test and deploy:** Test your Streamlit application locally to ensure it functions as expected. Once satisfied, deploy the application to a web server or hosting platform for public access.
+**Created interactive maps:** Used the geospatial data to generate interactive maps within your Streamlit application, allowing users to explore the Airbnb listings spatially.
 
 **Airbnb PowerBI Dashboard**
 
