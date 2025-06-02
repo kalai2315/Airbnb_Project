@@ -19,7 +19,7 @@ st.set_page_config(
     layout="wide"
 )
 
-image = Image.open('F:\project\Airbnb\download (1).png')
+image = Image.open('')
 st.image(image)
 # Title and description
 st.title('Airbnb Data Analysis')
