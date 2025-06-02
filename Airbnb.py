@@ -19,7 +19,7 @@ st.set_page_config(
     layout="wide"
 )
 
-image = Image.open('')
+image = Image.open('Airbnb_Logo_Bélo.svg.png')
 st.image(image)
 # Title and description
 st.title('Airbnb Data Analysis')
