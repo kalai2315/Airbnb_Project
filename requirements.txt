@@ -1,0 +1,10 @@
+
+streamlit
+pandas
+plotly
+pymongo
+seaborn
+matplotlib
+Pillow
+pymysql
+SQLAlchemy
